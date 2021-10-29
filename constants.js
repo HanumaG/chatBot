@@ -25,7 +25,7 @@ const prompts = [
   ["no","not sure","maybe","no thanks"],
   [""],
   ["haha","ha","lol","hehe","funny","joke"],
-  ["SMART"]
+  ["web automation"]
 ]
 
 // Possible responses, in corresponding order
