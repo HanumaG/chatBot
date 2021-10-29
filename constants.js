@@ -24,8 +24,7 @@ const prompts = [
   ["what", "why", "how", "where", "when"],
   ["no","not sure","maybe","no thanks"],
   [""],
-  ["haha","ha","lol","hehe","funny","joke"],
-  ["web automation"]
+  ["haha","ha","lol","hehe","funny","joke"]
 ]
 
 // Possible responses, in corresponding order
@@ -59,7 +58,6 @@ const replies = [
   ["That's ok","I understand","What do you want to talk about?"],
   ["Please say something :("],
   ["Haha!","Good one!"],
-  ["Smart WebdriverIO Accelerator"]
 ]
 
 // Random for any other user input
@@ -77,4 +75,4 @@ const alternative = [
 
 const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"]
 
-const webDriverIO = ["Smart WebDrverIo","Web Automation"]
+const webDriverIO = ["Smart WebDrverIo"]

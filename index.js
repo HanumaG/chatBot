@@ -34,9 +34,9 @@ function output(input) {
   } else if (text.match(/(corona|covid|virus)/gi)) {
     // If no match, check if message contains `coronavirus`
     product = coronavirus[Math.floor(Math.random() * coronavirus.length)];
-  }else if (text.match(/(web|automation|test)/gi)) {
+  }else if (text.match(/(web|automation|test|E2ETest|NodeJS|Mocha|Chai)/gi)) {
     // If no match, check if message contains `coronavirus`
-    product = "Smart WebdriverIO";
+    product = "Smart WebDrverIO"
   } else {
     // If all else fails: random alternative
     product = alternative[Math.floor(Math.random() * alternative.length)];
